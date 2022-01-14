@@ -16,6 +16,8 @@ The ground truth of a test case is documented in the comments. If a line doesn't
 | 8  | topdownInterApp  | the most basic case for top-down inter-procedural analysis for apps |
 | 9  | bottomupInterPlatform  | the most basic case for bottom-up inter-procedural analysis for platforms |
 | 10  | bottomupInterApp  | the most basic case for bottom-up inter-procedural analysis for apps |
+| 11  | nestedIntraPlatforms  | extends case 1 by nesting the conditionals | :white_check_mark:
+| 12 | nestedIntraApps  | extends case 2 by nesting the conditionals | :white_check_mark:
 
 
 
