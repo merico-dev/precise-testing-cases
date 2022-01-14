@@ -4,11 +4,11 @@ function basicIntraApp () {
     let scheme = ''
 
     if (Env.isWM()) {
-        scheme = 'x'
+        scheme = 'x' // WM
     } else if (Env.isMT()){
-        scheme = 'y'
+        scheme = 'y' // MT
     } else if (Env.isDP()) {
-        scheme = 'z'
+        scheme = 'z' // DP
     }
 
     return scheme

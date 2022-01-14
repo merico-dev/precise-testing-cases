@@ -4,8 +4,8 @@ function varIntraPlatform () {
     const isIOS = Env.isIOS()
 
     if (isIOS) {
-        doSomething()
+        doSomething() // iOS
     } else {
-        doSomethingElse()
+        doSomethingElse() // Android
     }
 }

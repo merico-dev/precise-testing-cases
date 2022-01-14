@@ -3,22 +3,22 @@ import { Env } from '@helloworld/rn-common'
 function topdownInterApp () {
 
     if (Env.isWM()) {
-        wmHelper()
+        wmHelper() // WM
     } else if (Env.isMT()) {
-        mtHelper()
+        mtHelper() // MT
     } else if (Env.isDP()) {
-        dpHelper()
+        dpHelper() // DP
     }
 }
 
 function wmHelper() {
-    return 'wm task performed'
+    return 'wm task performed' // WM
 }
 
 function mtHelper() {
-    return 'mt task performed'
+    return 'mt task performed' // MT
 }
 
 function dpHelper() {
-    return 'dp task performed'
+    return 'dp task performed' // DP
 }

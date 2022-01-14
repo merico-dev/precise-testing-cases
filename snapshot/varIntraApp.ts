@@ -6,9 +6,9 @@ function varIntraApp () {
     let val = ''
 
     if (isWM) {
-        val = 'a'
+        val = 'a' // WM
     } else {
-        val = 'b'
+        val = 'b' // MT, DP
     }
 
     return val
