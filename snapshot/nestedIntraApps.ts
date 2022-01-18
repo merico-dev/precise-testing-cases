@@ -3,7 +3,7 @@ import { Env } from '@helloworld/rn-common'
 function nestedIntraApps () {
     let val = ''
     if (Env.isWM()) {
-        if (Env.WM()) {
+        if (Env.isWM()) {
             val = 'a' // WM
         } else {
             val = 'b' // Empty
