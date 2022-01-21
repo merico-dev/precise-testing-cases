@@ -12,10 +12,10 @@ The ground truth of a test case is documented in the comments. If a line doesn't
 | 4  | varIntraApp  | extends case 2 by assigning to a var and using that var as condition | :white_check_mark:
 | 5  | onelineIntraPlatform  | a variant of case 1 with the ternary operator (?:) | :white_check_mark:
 | 6  | onelineIntraApp  | a variant of case 2 with the ternary operator (?:) | :white_check_mark:
-| 7  | topdownInterPlatform  | the most basic case for top-down inter-procedural analysis for platforms | scheduled for the week of 1/17
-| 8  | topdownInterApp  | the most basic case for top-down inter-procedural analysis for apps | scheduled for the week of 1/17
-| 9  | bottomupInterPlatform  | the most basic case for bottom-up inter-procedural analysis for platforms | scheduled for the week of 1/17
-| 10  | bottomupInterApp  | the most basic case for bottom-up inter-procedural analysis for apps | scheduled for the week of 1/17
+| 7  | topdownInterPlatform  | the most basic case for top-down inter-procedural analysis for platforms | :white_check_mark:
+| 8  | topdownInterApp  | the most basic case for top-down inter-procedural analysis for apps | :white_check_mark:
+| 9  | bottomupInterPlatform  | the most basic case for bottom-up inter-procedural analysis for platforms | :white_check_mark:
+| 10  | bottomupInterApp  | the most basic case for bottom-up inter-procedural analysis for apps | :white_check_mark:
 | 11  | nestedIntraPlatforms  | extends case 1 by nesting the conditionals | :white_check_mark:
 | 12 | nestedIntraApps  | extends case 2 by nesting the conditionals | :white_check_mark:
 
